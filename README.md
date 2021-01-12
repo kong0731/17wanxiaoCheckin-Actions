@@ -45,7 +45,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: 0 22,4,9 * * *
+    - cron: 0 22, * * *
 ```
 
 **3、当发现报错显示密码错误，还有 * 次后冻结，请立马修改 secrets 的密码再尝试运行**
